@@ -5,24 +5,25 @@
   font-family: Lato, sans-serif;
 }
 
-.aaa {
+.page {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.aaa img {
+.page img {
   width: 100%;
 }
 
-.aaa .more_inf {
+.page,
+.more_inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-    .aaa { text-align: center;
+    .page { text-align: center;
   }
 
 }
@@ -48,11 +49,13 @@ ul {
   padding: 0px;
 }
 
-li, h3 {
+li,
+h3 {
   list-style: none;
 }
 
-input,button{
+input,
+button {
   outline: none;
 }
 
