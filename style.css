@@ -70,7 +70,7 @@ button {
 }
 
 button:hover {
-  color: #3a3A3a;
+  color: #3a3a3a;
 }
 /* Heading */
 h3,
@@ -90,7 +90,7 @@ input[type="text"] {
   line-height: 18px;
   height: 21px;
   padding: 0 9px;
-  border: 1px solid #dDd;
+  border: 1px solid #ddd;
   background: #FFF;
   border-radius: 6px;
   font-family: Lato, sans-serif;
@@ -112,7 +112,7 @@ input#new-task {
 }
 
 p > button:hover {
-  color: #0FC57C;
+  color: #0fc57c;
 }
 
 /* Task list */
@@ -146,7 +146,7 @@ li >  input[type="text"] {
 }
 
 li > button.delete:hover {
-  color: #CF2323;
+  color: #cf2323;
 }
 
 button.delete img {
