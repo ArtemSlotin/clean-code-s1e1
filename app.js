@@ -177,9 +177,8 @@ let bindTaskEvents = function(taskListItem,checkBoxEventHandler) {
   //Bind deleteTask to delete button.
   deleteButton.onclick = deleteTask;
   //Bind taskCompleted to checkBoxEventHandler.
-  checkBox.onchange = checkBoxEventHandler;
+  checkBox.onchange = checkBoxEventHandler; 
 }
-
 //cycle over incompleteTaskHolder ul list items
 //for each list item
 for (let i = 0; i < incompleteTaskHolder.children.length; i++) {
