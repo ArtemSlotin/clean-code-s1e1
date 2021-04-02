@@ -54,11 +54,10 @@ let createNewTaskElement = function (taskString) {
   listItem.appendChild(editInput);
   listItem.appendChild(editButton);
   listItem.appendChild(deleteButton);
-  console.log(listItem);
   return listItem;
 }
 
-let addTask = function(){
+let addTask = function () {
   console.log("Add Task...");
   //Create a new list item with the text from the #new-task:
   if (!taskInput.value) return;
@@ -74,7 +73,7 @@ let addTask = function(){
 
 //Edit an existing task.
 
-let editTask = function(){
+let editTask = function () {
   console.log("Edit Task...");
   console.log("Change 'edit' to 'save'");
 
