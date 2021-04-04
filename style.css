@@ -34,7 +34,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .header__wrapper {
@@ -135,7 +135,7 @@ input, button {
 }
 
 .task__input {
-  width: 226px
+  width: 226px;
 }
 
 .delete__img {
