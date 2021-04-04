@@ -75,7 +75,7 @@ let addTask = function () {
 
 let editTask = function () {
   console.log("Edit Task...");
-  console.log("Change 'edit' to 'save'");
+  console.log(`Change "edit" to "save"`);
 
 
   let listItem = this.parentNode;
